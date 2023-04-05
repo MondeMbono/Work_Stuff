@@ -1,0 +1,57 @@
+<mxfile host="app.diagrams.net" modified="2023-04-05T10:58:18.298Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" version="21.1.4" etag="Ok3i0UpJMBmWCkLL3RMA" type="github">
+  <diagram name="Page-1" id="KrYdp2aU0MEv8INiquUH">
+    <mxGraphModel>
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Build Report" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry width="104" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="Collect Build Data" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="190" y="4" width="145" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="Analyze Build Results" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="493" y="4" width="168" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="Generate Report" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="769" y="4" width="135" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="Send Report to stakeholders" style="rounded=1;absoluteArcSize=1;arcSize=14;whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1084" y="35" width="217" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="Start" style="curved=1;startArrow=none;endArrow=block;exitX=0.9992487980769231;exitY=0.33755066642912507;entryX=-0.002855603448275862;entryY=0.5062040441176471;" edge="1" parent="1" source="2" target="3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="147" y="21" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8" value="Data collection" style="curved=1;startArrow=none;endArrow=block;exitX=0.995635775862069;exitY=0.5062040441176471;entryX=0.001441592261904762;entryY=0.5062040441176471;" edge="1" parent="1" source="3" target="4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9" value="Analysis" style="curved=1;startArrow=none;endArrow=block;exitX=1.0003720238095237;exitY=0.5062040441176471;entryX=0.002199074074074074;entryY=0.5062040441176471;" edge="1" parent="1" source="4" target="5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="10" value="Report generation" style="curved=1;startArrow=none;endArrow=block;exitX=0.999537037037037;exitY=0.5062040441176471;entryX=-0.0020521313364055297;entryY=0.004176291067976019;" edge="1" parent="1" source="5" target="6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="994" y="21" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="11" value="End" style="curved=1;startArrow=none;endArrow=block;exitX=-0.0020521313364055297;exitY=0.9935259148143767;entryX=0.9992487980769231;entryY=0.661698131647798;" edge="1" parent="1" source="6" target="2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="994" y="83" />
+              <mxPoint x="147" y="83" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
